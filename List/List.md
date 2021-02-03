@@ -197,7 +197,16 @@ split2
     '''[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]'''
     ```
 
-3. `.sort()` : List를 오름차순, 내림차순 정렬한다.
+3. `.extend(List)` : List 마지막에 List를 추가한다.
+
+    ```python
+    ext = [1, 2, 3]
+    ext.extend([[4, 5, 6]])
+    ext
+    '''[1, 2, 3, [4, 5, 6]]'''
+    ```
+
+4. `.sort()` : List를 오름차순, 내림차순 정렬한다.
 
     시간복잡도 O(N|logN)
 
@@ -214,7 +223,15 @@ split2
     '''[5, 4, 3, 2, 1, 0]'''
     ```
 
-4. `.reverse()` : 원소의 순서를 반대로 돌린다.
+5. `sorted(List)` : 인자 List를 변형하지 않고, 정렬하여 반환한다.
+
+    ```python
+    sorted_ = sorted([0, 2, 1, 3, 4, 5])
+    sorted_
+    '''[0, 1, 2, 3, 4, 5]'''
+    ```
+
+6. `.reverse()` : 원소의 순서를 반대로 돌린다.
 
     시간복잡도 O(N)
 
@@ -225,7 +242,17 @@ split2
     '''['Hello,', 'I', 'am', 'Sollie']'''
     ```
 
-5. `.insert(Index, Value)` : 특정 Index에 원소를 추가한다.
+7. `reversed(List)` : 인자 List를 변형하지 않고, 순서를 뒤집어 반환한다.
+
+    결과를 확인하기 위해서는 `list()`를 사용해야 한다.
+
+    ```python
+    reved = reversed(['Sollie', 'am', 'I', 'Hello,'])
+    list(reved)
+    '''['Hello,', 'I', 'am', 'Sollie']'''
+    ```
+
+8. `.insert(Index, Value)` : 특정 Index에 원소를 추가한다.
 
     시간복잡도 O(N)
 
@@ -241,7 +268,16 @@ split2
     '''[1, 3, 2, 4, 5]'''
     ```
 
-6. `.count(Value)` : 특정 값을 갖는 원소의 개수를 센다.
+9. `del` : 특정 Index의 원소를 제거한다.
+
+    ```python
+    de = [1, 2, 3, 3, 4, 5]
+    del de[3] #del de[de.index(3)]
+    de
+    '''[1, 2, 3, 4, 5]'''
+    ```
+
+10. `.count(Value)` : 특정 값을 갖는 원소의 개수를 센다.
 
     시간복잡도 O(N)
 
@@ -254,7 +290,7 @@ split2
     '''4'''
     ```
 
-7. `.remove(Value)` : 특정 값을 갖는 원소를 하나 제거한다.
+11. `.remove(Value)` : 특정 값을 갖는 원소를 하나 제거한다.
 
     시간복잡도 O(N)
 
@@ -263,6 +299,24 @@ split2
     rem.remove(3)
     rem
     '''[1, 2, 3, 4, 5]'''
+    ```
+
+12. `.index(Value)` : 해당하는 원소의 Index를 반환한다.
+
+    ```python
+    ind = ['apple', 'banana', 'orange']
+    ind.index('apple')
+    '''0'''
+    ```
+
+13. `in`절로 List에 원소가 있는지 확인할 수 있다.
+
+    ```python
+    1 in [1, 3, 5]
+    '''True'''
+
+    2 in [1, 3, 5]
+    '''False'''
     ```
 
 # 링크.
