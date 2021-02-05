@@ -128,7 +128,7 @@ split2
 
 명시적으로 구분자를 넣을 수 있고, Default 값은 빈 칸이다.
 
-# Method.
+# Method Archive.
 
 1. `dir()` : 특정 타입에서 사용할 수 있는 메서드를 확인해보자.
 
