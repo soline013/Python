@@ -1,1 +1,7 @@
 # Python
+
+# List.
+
+# Numpy.
+
+# Pandas.
