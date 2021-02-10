@@ -4,7 +4,7 @@ Pandas가 Numpy를 기본으로 한다.
 
 ndarray라는 특수 데이터 타입을 사용한다.
 
-### Method Achive.
+## Method Achive.
 
 - `.array(Array)` : ndmin으로 임의 차원 생성.
 
