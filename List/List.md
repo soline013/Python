@@ -1,4 +1,4 @@
-# List Basic.
+## List Basic.
 
 1. List는 순서가 있고, 수정 가능한 객체의 집합이다.
 2. `[]`를 사용하고, `,`로 내부 원소를 구분한다.
@@ -110,7 +110,7 @@ Index를 생략할 수 있고, 모든 Index를 생략하면 모든 원소를 가
 
 Step을 지정하면 Step만큼 원소를 건너뛴다.
 
-# List & String.
+## List & String.
 
 ```python
 abc = 'one two three'
@@ -128,7 +128,7 @@ split2
 
 명시적으로 구분자를 넣을 수 있고, Default 값은 빈 칸이다.
 
-# Method Archive.
+## Method Archive.
 
 1. `dir()` : 특정 타입에서 사용할 수 있는 메서드를 확인해보자.
 
@@ -319,7 +319,7 @@ split2
     '''False'''
     ```
 
-# 링크.
+## 링크.
 
 [위키독스](https://wikidocs.net/16036)
 
