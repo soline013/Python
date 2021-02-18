@@ -7,6 +7,13 @@ Python의 문법과 Library 등을 정리하기 위해 만든 Repository로, 간
 List = ['L', 'i', 's', 't']
 ```
 
+# Tuple.
+```Python
+Tuple = ('T', 'u', 'p', 'l', 'e')
+```
+
+---
+
 # Numpy.
 ```Python
 import numpy as np
