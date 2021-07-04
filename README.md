@@ -25,6 +25,8 @@ a = np.array([[0, 1, 0, 1, 0],
 ```
 
 # Pandas.
+[Pandas Docs](https://pandas.pydata.org/docs/index.html)
+
 ```Python
 import pandas as pd
 ```
