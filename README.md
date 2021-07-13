@@ -15,6 +15,8 @@ Tuple = ('T', 'u', 'p', 'l', 'e')
 ---
 
 # Numpy.
+[Numpy Docs](https://numpy.org/doc/)
+
 ```Python
 import numpy as np
 a = np.array([[0, 1, 0, 1, 0],
